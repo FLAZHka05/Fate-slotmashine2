@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daniel tytskiy and Hampus Edgren - Final Project</title>
+
+  <!-- Styles live in their own file -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Pixi.js library  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.3.2/pixi.min.js"></script>
+</head>
+<body>
+  <main>
+    <h1>Daniel tytskiy & Hampus Edgren</h1>
+    <p>[Me and Hampus project was a fortune roulette game controlled by a micro:bit and that gives responses with ollama]</p>
+
+    <!-- The Pixi canvas is placed inside this box by js/script.js -->
+    <div id="stage" aria-label="Interactive particle field"></div>
+    <p class="hint">Move your mouse over the field, or click to make a ripple.</p>
+
+    <h2>My final project: The Algorithm of Fate</h2>
+    <p>
+      A CRT-style fortune slot machine controlled by a micro:bit. Each spin
+      picks three words, and a local AI model writes a fortune and explains it.
+    </p>
+
+    <div class="project-layout">
+      <figure class="placeholder-image">
+        <img src="img/project-screenshot.png" alt="Screenshot of the project interface">
+        <figcaption class="image-caption">The project's CRT-inspired fortune slot-machine interface.</figcaption>
+      </figure>
+
+      <div class="placeholder-box">
+        <p>
+         This project is all about combining a classic slot-machine interface into a fortune-telling device with a local AI that personalizes your own fortune. A Microbit is used to spin the slot machine to generate the three words that later shape into a phrase or sentence with the help of AI. The AI algorithm uses Ollama LLM modules to generate a personalized fortune and explain the reason behind it. This project combines technology, local AI, and storytelling, and aims to make your future feel interactive and enjoyable. 
+        </p>
+      </div>
+    </div>
+
+    <section class="gallery" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Project gallery</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="img/1795181809192.jpg" alt="Close-up of the fortune slot interface displaying generated words and a fortune">
+          <figcaption>
+            <strong>A generated fortune</strong>
+            The interface combines the selected words into a personalized fortune and explanation.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/PXL_20261118_133614422.jpg" alt="The finished fortune slot machine cabinet with its screen and button">
+          <figcaption>
+            <strong>The finished machine</strong>
+            The cabinet brings the digital slot-machine experience into a physical installation.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/PXL_20261118_133618202.jpg" alt="The fortune machine displaying a set of words ready for a spin">
+          <figcaption>
+            <strong>Words ready to spin</strong>
+            The screen shows the words that can be combined to create a new fortune.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/PXL_20261118_133625795.jpg" alt="Rear view of the machine showing its computer and wiring">
+          <figcaption>
+            <strong>Inside the setup</strong>
+            A look at the computer and connections behind the display.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="img/a3aaec98-99b8-4c32-8ebb-bbaf37acc3c2.jpg" alt="Blue physical button and PRESS label on the slot-machine control panel">
+          <figcaption>
+            <strong>Spin button</strong>
+            The physical button lets players trigger a new slot-machine spin.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <video controls preload="metadata" aria-label="Video demonstration of the fortune slot machine">
+            <source src="img/PXL_20261118_121610477.mp4" type="video/mp4">
+            Your browser does not support embedded video. You can <a href="img/PXL_20261118_121610477.mp4">open the video file</a> instead.
+          </video>
+          <figcaption>
+            <strong>Project demo</strong>
+            Watch the fortune slot machine in action.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <p>Made with Hampus Edgren.</p>
+   <p>
+      Code: <a href="https://github.com/FLAZHka05/Fate-slotmahsine-">[GitHub repository link]</a>
+    </p>
+  </main>
+
+ 
+  <script src="js/script.js"></script>
+</body>
+</html>
